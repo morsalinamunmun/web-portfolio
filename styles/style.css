@@ -107,10 +107,31 @@ nav a{
     margin-top: 10px;
     margin-bottom: 20px;
 }
+/* main section css */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
 /* about section css */
 .about{
     background-color: #FFF8F3;
     border-radius: 5px;
     margin: 100px 0px;
     padding: 100px;
+}
+.about-info-contain{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    line-height: 5px;
+}
+.about-info h4{
+    font-weight: normal;
+    color: #757575;
+}
+.about-info p{
+    font-weight: bold;
 }
