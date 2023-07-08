@@ -13,14 +13,23 @@ font-family: 'Work Sans', sans-serif;
 .btn-primary{
     background-color: #FD6E0A;
     border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 20px;
 }
 
-/* header css */
+/* header nav css */
 .main-color{
     color: #FD6E0A;
 }
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: space-between;
+    margin: 0px 200px; */
 }
 .nav-title{
     font-size: 45px;
@@ -29,6 +38,7 @@ nav{
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -37,4 +47,25 @@ nav li{
 nav a{
     text-decoration: none;
     color: #454545;
+}
+/* Header tamplate css */
+.head{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+ .banner .profile-pic{
+    width: 400px;
+}
+.btn{
+    background-color: transparent;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 20px;
 }
