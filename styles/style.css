@@ -1,0 +1,40 @@
+/* common share style */
+body{
+    font-family: 'Hind', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans Bengali', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.main-color{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+}
+
+/* header css */
+.main-color{
+    color: #FD6E0A;
+}
+nav{
+    display: flex;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-Right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #454545;
+}
