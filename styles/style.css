@@ -198,7 +198,7 @@ footer{
     width: 50%;
 }
 .contact{
-    margin-left: 200px;
+    margin-left: 80px;
 }
 .contact input[type="text"], input[type="email"], textarea{
     display: block;
